@@ -1,0 +1,6 @@
+coisa = input('Digite algo: ')
+print(f'Só tem espaços? {coisa.isspace()}')
+print(f'É numérico? {coisa.isnumeric()}')
+print(f'Tem apenas letras? {coisa.isalpha()}')
+print(f'Está escrito em mínusculo? {coisa.islower()}')
+print(f'Está escrito em maiusculo? {coisa.isupper()}')
