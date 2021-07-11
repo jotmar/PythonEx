@@ -12,4 +12,7 @@ while True:
 Foram necessárias {tentativas} tentativas. """)
         break
     else:
-        print('Você errou! Tente novamente.')
+        if palpite > num:
+            print('Menos... Tente novamente.')
+        elif palpite < num:
+            print('Mais... Tente novamente.')

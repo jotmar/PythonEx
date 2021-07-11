@@ -4,3 +4,4 @@ while True:
         break
     else:
         print('Valor inválido! por favor tente novamente.')
+print('Sexo Registrado com sucesso!')

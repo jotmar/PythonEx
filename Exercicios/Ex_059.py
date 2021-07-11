@@ -26,6 +26,15 @@ while True:
         print(f'A soma entre {n1} e {n2} resulta no número {n1 + n2}')
     elif option == 2:
         print(f'O produto dos fatores {n1} e {n2} é {n1 * n2}')
+    elif option == 3:
+        if n1 != n2:
+            if n1 > n2:
+                maior = n1
+            elif n1 < n2:
+                maior = n2
+            print(f'Entre os números {n1} e {n2} o maior é o {maior}') 
+        else:
+            print('Ambos os números são iguais!')
     elif option == 4:
         print('Escolha os números novamente')       
     elif option == 5:

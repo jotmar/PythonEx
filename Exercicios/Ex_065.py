@@ -18,6 +18,6 @@ while True:
     if prosseguir == 'n':
         break
 print('='*30)
-print(f"""A média de todos os números digitados foi {media / cont:.2f}
+print(f"""A média dos {cont} números digitados foi {media / cont:.2f}
 O maior número digitado foi {maior}
 O menor número digitado foi {menor}""")

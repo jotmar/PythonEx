@@ -7,3 +7,4 @@ while cont != 0:
     cont -= 1
     if cont == 0:
         cont += int(input('Deseja contar mais quantos termos? '))
+print('A PA acabou!')
