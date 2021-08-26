@@ -8,7 +8,7 @@ pares = 0
 print(f'O número 9 apareceu {times9} vezes.')
 if 3 in numbers:
     first3 = numbers.index(3)
-    print(f'O número 3 apareceu pela primeira vez na posição {first3}')
+    print(f'O número 3 apareceu pela primeira vez na posição {first3 + 1}')
 else:
     print('O número 3 não apareceu nenhuma vez.')
 print('Os valores pares digitados foram: ', end='')
