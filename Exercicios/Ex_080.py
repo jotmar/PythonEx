@@ -1,7 +1,7 @@
 numbers = list()
-for pos in range(0, 5):
+for c in range(0, 5):
     num = int(input('Digite um valor: '))
-    if pos == 0 or num > max(numbers):
+    if c == 0 or num > max(numbers):
         numbers.append(num)
         print('Adicionado no final da lista.')
     else:
